@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(160, 0, 0);
+    display: grid;
+    place-items: center;
+}
+.cake-base{
+    width: 60rem;
+    height: 70rem;
+    background-color: rgb(237, 200, 200);
+    border-radius: 360rem 360rem 350rem 350rem;
+    box-shadow: 1rem;
+    border-top: 0rem;
+    border-bottom: 3rem;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    
+}
+.frosting{
+    display: grid;
+    width: 60rem;
+    height: 60rem;
+    margin-top: 0;
+    background-color: rgb(237, 200, 200);
+    border-radius: 360rem 360rem 350rem 350rem;
+    border-style: solid;
+    border-color: rgba(236, 166, 166, 0.732);
+    border-width: 0.7rem;
+    text-shadow: 0.5rem;
+    padding: 0.3rem;
+}
+.dedication{
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    color: rgb(244, 244, 151);
+}
+.strawberry-top-right{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 3rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-top-left{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 5rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+
+}
+.strawberry-top-middle{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 29rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+
+}
+.strawberry-bottom-middle{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 44rem;
+    margin-top: 4rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+} 
+.strawberry-top-right2{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 50rem;
+    margin-top: -6rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-top-left2{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-top: -3rem;
+    margin-left: 50rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-top-middle2{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 13rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-bottom-middle2{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 10rem;
+    margin-top: -4rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+} 
+.strawberry-top-right3{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 50rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-top-left3{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 50rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-top-middle3{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 45rem;
+    margin-top: -3rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.strawberry-bottom-middle3{
+    background-color: rgb(255, 0, 0);
+    height: 5rem;
+    width: 5rem;
+    margin-left: 27rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+} 
+
+.leaves{
+    background-color: rgb(107, 204, 65);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 200rem 300rem 150rem 300rem;
+}
+.seeds1,.seeds2,.seeds3{
+    background-color: rgb(228, 208, 58);
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 360rem 360rem 350rem 350rem;
+
+}
+.seeds1{
+    margin-left: 0.5rem;
+}
+.seeds2{
+    margin-left: 2.5rem;
+}
+.seeds3{
+    margin-left: 4rem;
+}
+.candles{
+    margin-top: 0rem;
+    width: 80rem;
+    display: flex;
+    justify-content: row;
+    align-items: start ;
+}
+.candle{
+    background-color: rgb(241, 241, 241);
+    height: 15rem;
+    width: 10rem;
+    margin-left: 2rem;
+}
+.fire{
+    background-color: rgb(253, 219, 0);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 80rem 300rem 150rem 300rem;
+    margin-left: 2.15rem;
+
+}
+.lits{
+    margin-bottom: 0rem;
+    width: 80rem;
+    display: flex;
+    justify-content: row;
+    align-items: start ; 
+}
